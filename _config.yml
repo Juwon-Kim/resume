@@ -1,3 +1,5 @@
+# localhost 루비 서버 오픈 ( http://localhost:4000 )
+# bundle exec jekyll serve
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
@@ -6,38 +8,27 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Juwon Kim
-title: RESUME
+name: 김 주 원 ( Juwon-Kim )
+title: Junior Web Developer
 email: godgod3260@naver.com
 # email_title: Email (Email title override)
 phone: 010 - 2080 - 3266
 # phone_title: Phone (Phone title override)
-website: T^T
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
-
+github_username:  juwon-kim
+facebook_username: godgod3260
+instagram_username: jw93_dev
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# 여기는 커스터마이징 아이콘 (최우상단)
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -52,13 +43,22 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
+  이곳은 자기소개 하는 곳입니다. [links](http://foobar.com) and highlight things <mark>like this</mark>.
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
     - Tables
     - <a href="google.com">Links</a>
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
+     <table>
+    <thead>
+      <th>NAME</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>JUWON</td>
+      </tr>
+    </tbody>
+  </table>
 
 content:
   - title: Projects # Title for the section
