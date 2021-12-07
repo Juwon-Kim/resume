@@ -6,13 +6,13 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Juwon Kim
+title: RESUME
+email: godgod3260@naver.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: 010 - 2080 - 3266
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: T^T
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -48,7 +48,7 @@ additional_links:
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
-# About Section
+# About Sectionx
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
