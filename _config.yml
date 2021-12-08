@@ -55,22 +55,17 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Wifi 실시간 모니터링
+        title: 디지털프라자시스템
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: 2018.09.02 ~ 2018.11.26
-        #additional_links:
-        # - title:  Wifi 패킷 실시간 모니터링 웹 서비스 #Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  디지털프라자 시스템 (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 2020.11.01 ~ now
         quote: >
-          KT SI 프로젝트 
+          디지털프라자 고객/판촉/판매/물류/재무를 위한 시스템
         description: | # this will include new lines to allow paragraphs
           <ul>
-            <li>오류 패킷을 검출하고 데이터를 표현하기 위한 대용량 데이터 처리</li>
-            <li>1,000,000 rows 이상 데이터 1만 단위로 분할하여 임시 파일에 적재 후 일괄 전송 방식을 통한 속도개선</li>
+            <li>엑셀업로드 로직이 각 Service Layer에서 엑셀 업로드 관련 확장자/파일크기/셀Data추출 등 중복된 로직 Excel Up/Download 처리 클래스 구현으로 개선</li>
+            <li>결산/마감 조회 쿼리의 성능 개선</li>
+            <li>.Net으로 개발되어 있던 백화점 별 영수증 입수 서버를 JAVA SpringBoot를 통한 API서버로 통합 전환하여
+                속도 개선 및 처리로직 일원화</li>
           </ul>
       - layout: left
         title: ITVOC
@@ -87,17 +82,22 @@ content:
             <li>Session-timeout 예외 발생 시, 각 시스템으로 접속 할 수 있는 root화면을 개발하여 개선</li>
           </ul>
       - layout: left
-        title: 디지털프라자시스템
+        title: Wifi 실시간 모니터링
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: 2020.11.01 ~ now
+        link_text: 2018.09.02 ~ 2018.11.26
+        #additional_links:
+        # - title:  Wifi 패킷 실시간 모니터링 웹 서비스 #Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  디지털프라자 시스템 (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          디지털프라자 고객/판촉/판매/물류/재무를 위한 시스템
+          KT SI 프로젝트 
         description: | # this will include new lines to allow paragraphs
           <ul>
-            <li>엑셀업로드 로직이 각 Service Layer에서 엑셀 업로드 관련 확장자/파일크기/셀Data추출 등 중복된 로직 Excel Up/Download 처리 클래스 구현으로 개선</li>
-            <li>결산/마감 조회 쿼리의 성능 개선</li>
-            <li>.Net으로 개발되어 있던 백화점 별 영수증 입수 서버를 JAVA SpringBoot를 통한 API서버로 통합 전환하여
-                속도 개선 및 처리로직 일원화</li>
+            <li>오류 패킷을 검출하고 데이터를 표현하기 위한 대용량 데이터 처리</li>
+            <li>1,000,000 rows 이상 데이터 1만 단위로 분할하여 임시 파일에 적재 후 일괄 전송 방식을 통한 속도개선</li>
           </ul>
   - title: Experience
     layout: list
