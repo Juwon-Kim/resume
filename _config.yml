@@ -97,37 +97,91 @@ content:
         description: | # this will include new lines to allow paragraphs
           <ul>
             <li>오류 패킷을 검출하고 데이터를 표현하기 위한 대용량 데이터 처리</li>
-            <li>1,000,000 rows 이상 데이터 1만 단위로 분할하여 임시 파일에 적재 후 일괄 전송 방식을 통한 속도개선</li>
+            <li>1,000,000 rows 이상 엑셀 다운로드 1만 단위로 분할하여 임시 파일에 적재 후 일괄 전송 방식을 통한 속도개선</li>
+          </ul>
+      - layout: left
+        title: 영화 흥행 예측 및 맞춤형 추천 웹 서비스
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 2018.03.02 ~ 2018.07.01
+        quote: >
+          Java Spring기반 웹 서비스 구현 
+        description: | # this will include new lines to allow paragraphs
+          <ul>
+            <li>데이터 처리를 위한 분산형 처리 시스템 구축(Spark, Hadoop, Redis)</li>
+            <li>영화 흥행 예측 요소 분석을 위한 단어사전 학습용 크롤러 구현</li>
+            <li>크롤링 데이터와 DB 데이터 간 비교 로직 속도 개선(2중 반복문 -> HashMap & Binary Search)</li>
+          </ul>
+      - layout: left
+        title: 중고 서적 판매 서비스
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 2016.07.02 ~ 2016.08.31
+        quote: >
+          ruby on rails를 이용한 CRUD 웹 서비스 구현
+        description: | # this will include new lines to allow paragraphs
+          <ul>
+            <li>게시판 형태의 웹서비스 구현</li>
+            <li>pagination 구현</li>
           </ul>
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: 삼성SDS
+        sub_title: 삼성전자 임직원 시스템 개발 및 유지보수
+        caption: 2019.08.05 ~ 현재
+        #link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
+          <ul>
+            <li>전자SET운영2팀 고객CI그룹</li>
+            <li>사내 알고리즘 SW검정 Pro취득 (im < adv < pro < exp )</li>
+          </ul>
         description: | # this will include new lines to allow paragraphs
-          Description of role
+
+      - layout: right
+        title: Software Maestro 10기
+        sub_title: 과학기술정보통신부/정보통신기획평가원 주관
+        caption: 2019.04.01 ~ 2019.06.31
+        #link: Link to company (optional)
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          <ul>
+            <li>팀 프로젝트 주제 선정 및 멘토/멘티 구성</li>
+            <li>드론 활용 배달 서비스 프로젝트의 시작과 회사합격</li>
+          </ul>
+          
+      - layout: right
+        title: 멋쟁이 사자처럼 4기
+        sub_title: ruby on rails 기반 web 개발 교육 동아리
+        caption: 2016.04 ~ 2016.08
+        #link: Link to company (optional)
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          <ul>
+            <li>2~3개월 간 ruby on rails기반 웹 개발 교육</li>
+            <li>각 Chaper이수 후, 단기 프로젝트 진행</li>
+            <li>알파오(AI기반 오목) 주제 해커톤 참여</li>
+          </ul>
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: 평택대학교
+        sub_title: 정보통신학과
+        caption: 2011.03 ~ 2018.02
         quote: >
-          Short institution or course description (optional)
+          
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: top-right
+        title: 정보처리기사
+        sub_title: 자격증
+        caption: 2016.11 취득
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs    
 
 # Footer
 footer_show_references: true
