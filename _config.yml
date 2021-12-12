@@ -146,8 +146,8 @@ content:
 
         description: | # this will include new lines to allow paragraphs
           <ul>
-            <li>팀 프로젝트 주제 선정 및 멘토/멘티 구성</li>
-            <li>드론 활용 배달 서비스 프로젝트의 시작과 회사합격</li>
+            <li>드론 활용 배달 서비스 프로젝트 주제 선정</li>
+            <li>프로젝트 멘토/멘티 구성</li>
           </ul>
           
       - layout: right
