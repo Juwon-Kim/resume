@@ -160,7 +160,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           <ul>
             <li>2~3개월 간 ruby on rails기반 웹 개발 교육</li>
-            <li>각 Chaper이수 후, 단기 프로젝트 진행</li>
+            <li>각 Chapter이수 후, 단기 프로젝트 진행</li>
             <li>알파오(AI기반 오목) 주제 해커톤 참여</li>
           </ul>
 
